@@ -1,9 +1,6 @@
-<nav>
-    <h2>Navbar</h2>
+<h2>{{ site.data.samplelist.docs_list_title }}</h2>
 <ul>
-    <li><a href="home.html">Bio</a></li>
-    <li><a href="home.html">Portfolio</a></li>
-    <li><a href="home.html">About</a></li>
-    <li><a href="home.html">Contact Me</a></li>
+   {% for item in site.data.samplelist.docs %}
+      <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+   {% endfor %}
 </ul>
-</nav>
