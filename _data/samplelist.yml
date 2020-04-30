@@ -1,11 +1,11 @@
-docs_list_title: ACME Documentation
+docs_list_title: Navigation
 docs:
 
-- title: Bio
-  url: Bio.html
+- title: bio
+  url: bio.html
 
 - title: contact
   url: contact.html
 
-- title: Deployment
+- title: Works
   url: works.html
