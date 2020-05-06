@@ -1,0 +1,12 @@
+---
+layout: page
+title: Works
+---
+{% for works in site.works %}
+
+<article class="work">
+    <h2><a href="{{ site.baseurl }}/{{ works.url }}" alt="{{ works.title }}">{{ works.title }}</a></h2>
+    <img src="{{ works.image_path }}" alt="{{ works.title }}" />
+    {{ works.content }}
+</article>
+{% endfor %}

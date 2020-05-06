@@ -1,8 +1,8 @@
 ---
-layout: page
+layout: default
 ---
 <div class="works">
-    <h2><img src="{{ works.image_path }}" alt="{{ works.title }}">{{ works.title }}</h2>
-
-        {{ works.content }}
+    <h2>{{ page.title }}</h2>
+    <img src="{{ page.image_path }}" alt="{{ page.title }}">
+    <div class="bodytext">{{ content }}</div>
 </div>
