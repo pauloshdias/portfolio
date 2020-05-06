@@ -2,3 +2,18 @@
 layout: page
 title: Works
 ---
+{% for work in site.works %}
+
+<article class="work">
+    <h2><a href="{{ work.url }}" alt="{{ works.title }}"></a>{{ works.title }}</h2>
+    {{ works.content }}
+</article>
+{% endfor %}
+
+
+{% for work in site.works %}
+<div class="works">
+    <h2><img src="{{ works.image_path }}" alt="{{ works.title }}" />{{ works.title }}</h2>
+    {{ works.content }}
+</div>
+{% endfor %}
