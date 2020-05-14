@@ -1,17 +1,11 @@
 docs_list_title: Navigation
 docs:
 
-- title: bio
-  url: bio.html
-
-- title: contact
-  url: contact.html
-
-- title: Works
-  url: works-pages.html
-
-- title: Homepage
+- title: projects
   url: homepage.html
 
-- title: Splash Screen
-  url: splash-screen.html
+- title: About
+  url: about.html
+
+- title: Contacts
+  url: works-pages.html
