@@ -6,13 +6,7 @@
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
 
     {%- if page_paths -%}
-      <nav>
-        <ul>
-            <li><a href=# alt="Projects">Projects</a></li>
-            <li><a href=# alt="About">About</a></li>
-            <li><a href=# alt="Contacts">Contacts</a></li>
-        </ul>
-     </nav>
+    {%- include navigation.html -%}
     {%- endif -%}
   </div>
 </header>

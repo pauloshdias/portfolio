@@ -1,6 +1,5 @@
-<h6>{{ site.data.samplelist.docs_list_title }}</h6>
 <ul>
-   {% for item in site.data.samplelist.docs_list_title %}
-      <li><a href="{{ site.baseurl }}/">{{ item.title }}</a></li>
+   {% for item in site.data.samplelist.docs %}
+      <li><a href="{{ item.url }}">{{ item.title }}</a></li>
    {% endfor %}
 </ul>
