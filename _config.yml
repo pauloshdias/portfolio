@@ -34,17 +34,14 @@ theme: minima
 plugins:
   - jekyll-feed
 
-#languages Exercise
-collections:
-  works:
-    output: true
-    permalink: /works/:path/
-
 #Projects Lists
 collections:
   projects:
     output: true
     permalink: /projects/:path/
+  categories:
+    output: true
+    permalink: /categories/:path/
 
 # Exclude from processing.
 # The following items will not be processed, by default.

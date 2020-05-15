@@ -1,0 +1,11 @@
+docs_list_title: Categories
+docs:
+
+- title: "UX Design"
+  url: ux-design.html
+
+- title: "Graphic Design"
+  url: graphic-design.html
+
+- title: "Photography"
+  url: photography.html

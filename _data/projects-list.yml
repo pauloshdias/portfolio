@@ -2,10 +2,22 @@ docs_list_title: Projects
 docs:
 
 - title: "FBAUL UX Research"
-  url: 
+  url: fbaul.html
+  image: https://i.ibb.co/0FPFx4w/11.png
+  category: "UX Design"
 
-- title: "Photo Portfolio"
-  url: 
+- title: "Hallstatt"
+  url: hallstatt.html
+  category: "Photography"
 
 - title: "Design System UI"
-  url: 
+  url: standards.html
+  category: "UX Design"
+
+- title: "Showroom"
+  url: showroom.html
+  category: "Graphic Design"
+
+- title: Sportsware
+  url: sportsware.html
+  category: "Graphic Design"
