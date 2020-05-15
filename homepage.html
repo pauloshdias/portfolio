@@ -2,57 +2,39 @@
 layout: default
 ---
 
-    <h1>A UX Designer with a overactive brain, always eager for knowledge, my happy place is wherever I can solve problems</h1>
-    <section>
+<h1>A UX Designer with a overactive brain, always eager for knowledge, my happy place is wherever I can solve problems</h1>
+<section>
+    <div class="pic-button">
+        <h2>Graphic Design</h2>
+        <div class="overlay"></div>
         <a href=#>
-            <div class="pic-button">
-                <h2>Graphic Design</h2> <!-- Como faço para reduzir esta repetição de código? -->
-                <picture><!-- estas medidas do srcset referem-se à largura do vewport ou da imagem em si?-->
-                    <img src="{{ '/assets/img/XL-2560/sportsware/PHD2228-Editar.jpg' | relative_url }}"
-                    alt="image of a chest area of a pourple and red sports equipment with adorned with skull icons and yellow fector lines">
-                </picture>
-            </div>
+            <picture>
+                <img src="{{ '/assets/img/XL-2560/sportsware/PHD2228-Editar.jpg' | relative_url }}"
+                alt="image of a chest area of a pourple and red sports equipment with adorned with skull icons and yellow fector lines">
+            </picture>
         </a>
+    </div>
+
+
+    <div class="pic-button">
+        <h2>UX Design</h2>
+        <div class="overlay"></div>
         <a href=#>
-            <div class="pic-button">
-                <h2>UX Design</h2>
-                <picture>
-                    <img 
-                    srcset="
-                    assets/img/xl-2560/education/fbaul.jpg 2560w,
-                    assets/img/l-1920/education/fbaul.jpg 1920w,
-                    assets/img/m-1024/education/fbaul.jpg 1024w,
-                    assets/img/s-900/education/fbaul.jpg 900w,
-                    assets/img/xs-400/education/fbaul.jpg 400w"
-                    sizes="(min-width: 2560px),
-                    (min-width: 1920px),
-                    (min-width: 1024px),
-                    (min-width: 900px),
-                    (min-width: 400px)"
-                    src="assets/img/S-900/education/fbaul.jpg"
-                    alt="image of a chest area of a pourple and red sports equipment with adorned with skull icons and yellow fector lines">
-                </picture>
-            </div>
+            <picture>
+                <img src="assets/img/S-900/education/fbaul.jpg"
+                alt="image of a chest area of a pourple and red sports equipment with adorned with skull icons and yellow fector lines">
+            </picture>
         </a>
+    </div>
+
+    <div class="pic-button">
+        <h2>Photography</h2>
+        <div class="overlay"></div>
         <a href=#>
-            <div class="pic-button">
-                <h2>Photography</h2>
-                <picture>
-                    <img 
-                    srcset="
-                    assets/img/xs-400/hallstatt/PHD3086.jpg 400w,
-                    assets/img/s-900/hallstatt/PHD3086.jpg 900w,
-                    assets/img/m-1024/hallstatt/PHD3086.jpg 1024w,
-                    assets/img/l-1920/hallstatt/PHD3086.jpg 1920w,
-                    assets/img/xl-2560/hallstatt/PHD3086.jpg 2560w"
-                    sizes="(min-width: 2560px),
-                    (min-width: 1920px),
-                    (min-width: 1024px),
-                    (min-width: 900px),
-                    (min-width: 400px)"
-                    src="assets/img/XL-2560/hallstatt/PHD3086.jpg"
-                    alt="image of a chest area of a pourple and red sports equipment with adorned with skull icons and yellow fector lines">
-                </picture>
-            </div>
+            <picture>
+                <a href=#><img src="assets/img/XL-2560/hallstatt/PHD3086.jpg"
+                alt="image of a chest area of a pourple and red sports equipment with adorned with skull icons and yellow fector lines"></a>
+            </picture>
         </a>
-    </section>
+    </div>
+</section>
