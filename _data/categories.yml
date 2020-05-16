@@ -3,9 +3,12 @@ docs:
 
 - title: "UX Design"
   url: ux-design.html
+  image: fbaul.jpg
 
 - title: "Graphic Design"
   url: graphic-design.html
+  image: sportsware.jpg
 
 - title: "Photography"
   url: photography.html
+  image: photography.jpg

@@ -1,12 +1,17 @@
 ---
 layout: default
+name: home
 ---
 
 <h1>A UX Designer with a overactive brain, always eager for knowledge, my happy place is wherever I can solve problems</h1>
 <section>
     <ul>
     {% for category in site.data.categories.docs %}
-    <li><a href="{{ site.baseurl }}/categories/{{ category.url }}">{{ category.title }}</a></li>
+    <li>
+        <h2>{{ category.title }}</h2>
+        <div class="gradient-overlay"></div>
+        <a href="{{ site.baseurl }}/categories/{{ category.url }}"><img src="{{ site.baseurl }}/assets/img/categories/{{ category.image }}"></a>
+    </li>
     {% endfor %}
     </ul>
 </section>
