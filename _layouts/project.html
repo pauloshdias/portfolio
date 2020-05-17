@@ -8,9 +8,15 @@
     {%- include header.html -%}
     
     <main class="page-content" aria-label="Content">
-      <div class="wrapper">
+      <article>
+        <img src="../assets/img/project-covers/{{ page.cover-image }}">
+         <h3>{{ page.Title }}</h3>
+         <h4>{{ page.Subtitle }}</h4>
+         <p>{{ page.Description }}</p>
+    </article> 
+      <section class="wrapper">
         {{ content }}
-      </div>
+      </section>
     </main>
     
     {%- include footer.html -%}
