@@ -3,20 +3,24 @@ docs:
 
 - employer: "Cintramédica"
   job: Designer
-  url: fbaul.html
   date: "2018-2020"
+  image: cintramedica.jpg
+  alt: "perspective view of Cintramedica's building"
 
 - employer: "UberEats"
   job: Photographer
-  url: fbaul.html
   date: "2019-2019"
+  image: Uber-Eats.png
+  alt: "close up of a brand paper bag and a semi opened black square box of pizza"
 
 - employer: "MySweets4U"
   job: "Web Graphic Designer"
-  url: fbaul.html
   date: "2015-2017"
+  image: MySweets4U.png
+  alt: "close up of chocolate powder with a chocolate square with the brand's logo printed on it"
 
 - employer: "PRINT Factory"
   job: "Lab. Technician"
-  url: fbaul.html
   date: "2007-2015"
+  image: print-factory.jpg
+  alt: "black and white imagem of a fabric like background, 3 yellow stripes on the right upper corner and 'print solutions' text on the left side"

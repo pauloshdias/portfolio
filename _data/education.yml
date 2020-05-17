@@ -1,0 +1,22 @@
+docs_list_title: Education
+docs:
+
+- school: "Faculdade de Belas-Artes – ULisboa"
+  degree: DXD
+  date: "2020"
+  image: dxd.jpg
+
+- school: "Nova FCSH"
+  degree: DataVisualization
+  date: "2018"
+  image: datavisualization.png
+
+- school: "Faculdade de Belas-Artes – ULisboa"
+  degree: "Communication Design"
+  date: "2017"
+  image: Design Comunicação.jpg
+
+- school: "IADE Creative University"
+  degree: "Photography"
+  date: "2007"
+  image: photography.jpg
