@@ -24,3 +24,7 @@ docs:
 - title: "Fallen Angels"
   url: fallen-angels.html
   category: "Photography"
+
+- title: "Photo Portfolio"
+  url: photoportfolio.html
+  category: "UX Design"
