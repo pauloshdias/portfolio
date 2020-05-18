@@ -2,9 +2,13 @@
 layout: default
 ---
 
-{% assign project = site.data.projects-list.docs | map: 'UX Design' | uniq %}
+
 <ul>
     {% for project in site.data.projects-list.docs %}
-    <li><a href="{{ site.baseurl }}/projects/{{ project.url }}">{{ project.title }}</a></li>
+    <li>
+        <h2>{{ project.title }}</h2>
+        <div class="gradient-overlay"></div>
+        <a href="{{ site.baseurl }}/projects/{{ project.url }}"><img src="{{ site.baseurl }}/assets/img/project-covers/{{ project.image }}"></a>
+    </li>
     {% endfor %}
 </ul>

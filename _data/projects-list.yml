@@ -4,27 +4,34 @@ docs:
 - title: "FBAUL UX Research"
   url: fbaul.html
   category: "UX Design"
+  image: fbaul.jpg
 
 - title: "Hallstatt"
   url: hallstatt.html
   category: "Photography"
+  image: hallstatt.jpg
 
 - title: "Design System UI"
   url: standards.html
   category: "UX Design"
-
-- title: "Showroom"
-  url: showroom.html
-  category: "Graphic Design"
+  image: standards.png
 
 - title: Sportsware
   url: sportsware.html
   category: "Graphic Design"
+  image: Sportsware.png
 
 - title: "Fallen Angels"
   url: fallen-angels.html
   category: "Photography"
+  image: fallen-angels.jpg
 
 - title: "Photo Portfolio"
   url: photoportfolio.html
   category: "UX Design"
+  image: photo-portfolio.png
+
+- title: "Google Trends"
+  url: gogletrends.html
+  category: "Graphic Design"
+  image: googletrendsfulldetail1.jpg
