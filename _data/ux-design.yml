@@ -1,0 +1,17 @@
+docs_list_title: ux-design
+docs:
+
+- title: "FBAUL UX Research"
+  url: fbaul.html
+  category: "UX Design"
+  image: fbaul.jpg
+
+- title: "Design System UI"
+  url: standards.html
+  category: "UX Design"
+  image: standards.png
+
+- title: "Photo Portfolio"
+  url: photoportfolio.html
+  category: "UX Design"
+  image: photo-portfolio.png

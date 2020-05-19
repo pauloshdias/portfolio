@@ -1,0 +1,12 @@
+docs_list_title: Graphic-Design
+docs:
+
+- title: Sportsware
+  url: sportsware.html
+  category: "Graphic Design"
+  image: Sportsware.png
+
+- title: "Google Trends"
+  url: gogletrends.html
+  category: "Graphic Design"
+  image: googletrendsfulldetail1.jpg

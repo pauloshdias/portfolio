@@ -2,43 +2,10 @@
 layout: default
 Title: Contacts
 ---
-
-{% include navigation.html %}
-
-
-<form action="mailto:pauloshdias@gmail.com" id="contactform">
-    <label for="fname"><h6>Primeiro</h6></label><br>
-    <input type="text" id="fname" name="fname" placeholder="Nome" required>
-    <label for="lname"><h6>Sobre Nome</h6></label><br>
-    <input type="text" id="lname" name="lname" placeholder="Sobrenome" required><br>
-    <label for="e-mail"><h6>E-mail</h6></label><br>
-    <input type="email" id="e-mail" name="e-mail" placeholder="e-mail" required><br>
-    <label for="subject"><h6>Assunto</h6></label><br>
-     <input type="text" id="subject" name="subject" placeholder="Assunto"required><br>
-    <textarea name="message"  style="width:200px; height:300px;" placeholder="A sua mensagem" required></textarea><br>
-    <button type="submit" onclick="alert('E-mail sent!')">Submit</button>
-    <a href=#>Resumé Download</a>
-</form>
-
-<form name="contact" method="POST" data-netlify="true">
-    <p>
-      <label>Your Name: <input type="text" name="name" /></label>   
-    </p>
-    <p>
-      <label>Your Email: <input type="email" name="email" /></label>
-    </p>
-    <p>
-      <label>Your Role: <select name="role[]" multiple>
-        <option value="leader">Leader</option>
-        <option value="follower">Follower</option>
-      </select></label>
-    </p>
-    <p>
-      <label>Message: <textarea name="message"></textarea></label>
-    </p>
-    <p>
-      <button type="submit">Send</button>
-    </p>
-  </form>
-
-  
+<div id="wufoo-mxrni5s1mzcxw5"> Fill out my <a href="https://pauloshdias.wufoo.com/forms/mxrni5s1mzcxw5">online form</a>.</div>
+<script type="text/javascript"> var mxrni5s1mzcxw5; (function(d, t) { var s = d.createElement(t),
+  options = { 'userName':'pauloshdias', 'formHash':'mxrni5s1mzcxw5', 'autoResize':true, 'height':'578', 'async':true, 'header':'show', 'ssl':true };
+  s.src = ('https:' == d.location.protocol ?'https://':'http://') + 'secure.wufoo.com/scripts/embed/form.js';
+  s.onload = s.onreadystatechange = function() { var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return; try { mxrni5s1mzcxw5 = new WufooForm();
+  mxrni5s1mzcxw5.initialize(options); mxrni5s1mzcxw5.display(); } catch (e) { } }; var scr = d.getElementsByTagName(t)[0],
+  par = scr.parentNode; par.insertBefore(s, scr); })(document, 'script'); </script>
