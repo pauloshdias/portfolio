@@ -4,11 +4,14 @@ docs:
 - title: "UX Design"
   url: ux-design.html
   image: fbaul.jpg
+  alt: "mockup of UI design"
 
 - title: "Graphic Design"
   url: graphic-design.html
   image: sportsware.jpg
+  alt: "image of a cyclist lady with her name and a cloured overlay and the text 'Sports Clothing Design'"
 
 - title: "Photography"
   url: photography.html
   image: photography.jpg
+  alt: "photo of a shore vilage nearby a lake with a mountain filling the background all covered with snow"

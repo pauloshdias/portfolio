@@ -10,7 +10,7 @@ name: home
     <li>
         <h2>{{ category.title }}</h2>
         <div class="gradient-overlay"></div>
-        <a href="{{ site.baseurl }}/{{ category.url }}"><img src="{{ site.baseurl }}/assets/img/categories/{{ category.image }}"></a>
+        <a href="{{ site.baseurl }}/{{ category.url }}"><img src="{{ site.baseurl }}/assets/img/categories/{{ category.image }}" alt="{{ category.alt }}"></a>
     </li>
     {% endfor %}
     </ul>
