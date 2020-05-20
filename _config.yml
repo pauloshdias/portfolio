@@ -36,19 +36,11 @@ plugins:
 
 #Projects Lists
 collections:
-  categories:
+  projects:
     output: true
-    permalink: /categories/:path/
-  photography:
-    output: true
-    permalink: /photography/:path/
-  graphic-design:
-    output: true
-    permalink: /graphic-design/:path/
-  ux-design:
-    output: true
-    permalink: /ux-design/:path
+    permalink: /projects/:path
 
+category: [ux-design, photography, graphic-design]
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
