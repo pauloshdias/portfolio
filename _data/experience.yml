@@ -10,13 +10,13 @@ docs:
 - employer: "UberEats"
   job: Photographer
   date: "2019-2019"
-  image: Uber-Eats.png
+  image: Uber-Eats.jpg
   alt: "close up of a brand paper bag and a semi opened black square box of pizza"
 
 - employer: "MySweets4U"
   job: "Web Graphic Designer"
   date: "2015-2017"
-  image: MySweets4U.png
+  image: MySweets4U.jpg
   alt: "close up of chocolate powder with a chocolate square with the brand's logo printed on it"
 
 - employer: "PRINT Factory"
