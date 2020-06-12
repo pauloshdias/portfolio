@@ -1,11 +1,11 @@
 ---
 layout: default
 ---
-
+<h1 class="page-title">Graphic Design</h1>
 <ul>
     {%- for project in site.projects -%}
-        {%- if project.category == "graphic-design" -%}
-            {% include projects-loop.html %}
-        {%- endif -%}
+    {%- if project.category == "graphic-design" -%}
+    {% include projects-loop.html %}
+    {%- endif -%}
     {%- endfor -%}
 </ul>

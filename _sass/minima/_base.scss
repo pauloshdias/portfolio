@@ -99,11 +99,22 @@
  /**
   * Headings
   */
- h1, h2, h3, h4, h5, h6 {
+h3, h4, h5, h6 {
    font-weight: $base-font-weight;
  }
- 
- 
+ h1, h2 {
+  font-weight: $base-font-weight*(2);
+}
+h1 {
+  color: $secondary-color;
+  @include relative-font-size(2.2857);
+  line-height: $base-line-height*(7/8);
+}
+h2 {
+  font-weight: $base-font-weight*(2.25);
+  text-transform: none;
+  @include relative-font-size(1.71428);
+} 
  
  /**
   * Links
