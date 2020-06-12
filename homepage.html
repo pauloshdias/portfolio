@@ -3,15 +3,20 @@ layout: default
 name: home
 ---
 
-<h1>A UX Designer with a overactive brain, always eager for knowledge, my happy place is wherever I can solve problems</h1>
+<h1>A UX Designer with a overactive brain, always eager for knowledge, my happy place is wherever I can solve problems
+</h1>
 <section>
     <ul>
-    {% for category in site.data.categories.docs %}
-    <li>
-        <h2>{{ category.title }}</h2>
-        <div class="gradient-overlay"></div>
-        <a href="{{ site.baseurl }}/{{ category.url }}"><img src="{{ site.baseurl }}/assets/img/categories/{{ category.image }}" alt="{{ category.alt }}"></a>
-    </li>
-    {% endfor %}
+        {% for category in site.data.categories.docs %}
+        <li class="projects-list">
+            <div class="list-wrapper">
+                <a href="{{ site.baseurl }}/{{ category.url }}">
+                    <div class="gradient-overlay"></div>
+                    <img src="{{ site.baseurl }}/assets/img/categories/{{ category.image }}" alt="{{ category.alt }}">
+                    <h2 class="li-title">{{ category.title }}</h2>
+                </a>
+            </div>
+        </li>
+        {% endfor %}
     </ul>
 </section>

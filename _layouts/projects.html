@@ -5,10 +5,14 @@ layout: default
 
 <ul>
     {% for project in site.projects %}
-    <li>
-        <h2>{{ project.title }}</h2>
-        <div class="gradient-overlay"></div>
-        <a href="{{ site.baseurl }}/{{ project.url }}"><img src="{{ site.baseurl }}/assets/img/project-covers/{{ project.image }}"></a>
+    <li class="projects-list">
+        <div class="list-wrapper">
+            <a href="{{ site.baseurl }}/{{ project.url }}">
+                <div class="gradient-overlay"></div>
+                <img src="{{ site.baseurl }}/assets/img/project-covers/{{ project.image }}">
+                <h2 class="li-title">{{ project.title }}</h2>
+            </a>
+        </div>
     </li>
     {% endfor %}
 </ul>

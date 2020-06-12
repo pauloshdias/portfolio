@@ -1,26 +1,26 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-  {%- include head.html -%}
+{%- include head.html -%}
 
-  <body style="background-color: #FFFFFA;">
+<body style="background-color: #FFFFFA;">
 
-    {%- include header.html -%}
-    
-    <main class="page-content" aria-label="Content">
-      <article>
-        <img src="../assets/img/project-covers/{{ page.image }}" alt="{{ page.alt }}">
-         <h3>{{ page.title }}</h3>
-         <h4>{{ page.subtitle }}</h4>
-         <p>{{ page.description }}</p>
-    </article> 
-      <section class="wrapper">
-        {{ content }}
-      </section>
-    </main>
-    
-    {%- include footer.html -%}
+  {%- include header.html -%}
 
-  </body>
+  <main class="page-content" aria-label="Content">
+    <article>
+      <img src="../assets/img/project-covers/{{ page.image }}" alt="{{ page.alt }}">
+      <h3>{{ page.title }}</h3>
+      <h4>{{ page.subtitle }}</h4>
+      <p>{{ page.description }}</p>
+    </article>
+    <section class="wrapper">
+      {{ content }}
+    </section>
+  </main>
+
+  {%- include footer.html -%}
+
+</body>
 
 </html>

@@ -47,3 +47,29 @@
   padding-top: 6px;
   margin-top: 32px;
 }
+
+/* MAIN LINK STYLES */
+
+.list-wrapper {
+  position: relative;
+  height: 19.67vh;
+  max-height: 200px;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 16px auto 16px auto;
+}
+.li-title {
+  position: absolute;
+  bottom: 4px;
+  margin: 0;
+  font-weight: $base-font-weight*(2.25);
+  width: 100%;
+  text-align: center;
+}
+.gradient-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 28.86%, #000000 97.32%);
+opacity: 0.5;
+}
