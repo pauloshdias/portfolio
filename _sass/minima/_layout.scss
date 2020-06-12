@@ -6,6 +6,7 @@
     letter-spacing: -1px;
     margin-bottom: 0;
     text-align: center;
+    @extend .navigation;
 
     &,
     &:visited {
@@ -24,7 +25,6 @@
     margin: 0;
     padding: 0;
     min-width: 10vw;
-
   }
 
   .nav-wrapper {
@@ -33,7 +33,7 @@
   }
 
 .top-navigation {
-  height: 64px;
+  height: 72px;
   width: 100%;
   background-color: $primary-color-1;
 }
@@ -52,7 +52,8 @@
 .page-title {
   margin: $spacing-unit*(1.0666) 0 $spacing-unit*(1.0666) 0;
 }
-/* MAIN BUTTONS STYLES */
+
+/* MAIN BROWSING BUTTONS STYLES */
 .list-wrapper {
   position: relative;
   height: 19.67vh;
@@ -61,19 +62,32 @@
   overflow: hidden;
   margin: 16px auto 16px auto;
 }
-.li-title {
+
+.li-title, .img-title, .img-date {
   position: absolute;
   bottom: 4px;
   margin: 0;
   width: 100%;
+  color: $neutral-color-light;
+}
+.li-title {
   text-align: center;
 }
+.img-title {
+  left: 5%;
+}
+
+.img-date {
+  text-align: end;
+  right: 5%;
+}
+
 .gradient-overlay {
   position: absolute;
   width: 100%;
   height: 100%;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 28.86%, #000000 97.32%);
-opacity: 0.5;
+  opacity: 0.5;
 }
 
  /* PROJECTS LAYOUT STYLES */
@@ -92,7 +106,19 @@ opacity: 0.5;
  }
  .project-sub {
    color: $secondary-color;
+   margin-top: -10px
  }
  .project-img {
    margin: $spacing-unit/(4) 0;
  }
+
+ /* ABOUT BASE */
+
+.about-title {
+  color: $neutral-color-light;
+}
+
+.about-sub {
+  @extend .project-sub;
+  margin-top: -20px;
+}

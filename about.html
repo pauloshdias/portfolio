@@ -2,12 +2,12 @@
 layout: default
 ---
 <header>
-    <picture>
+    <div class="list-wrapper">
         <img src="assets/img/about-photo.jpg" alt="id photo">
-    </picture>
+    </div>
     <article>
-        <h3>Paulo Dias</h3>
-        <h4>UX Designer</h4>
+        <h3 class="about-title">{{ site.title | escape }}</h3>
+        <h4 class="about-sub">UX Designer</h4>
         <p>Sou um designer licenciado no curso de Design de Comunicação pela Faculdade de Belas-Artes da Universidade de
             Lisboa com mais de 10 anos de experiência em fotografia, impressão e artes gráficas.</p>
         <p>Com especialização em Visualização de Informação e Experiência de Utilizador, tenho vindo a apurar o meu
@@ -20,26 +20,28 @@ layout: default
     <article>
         <h3>Work Experience</h3>
         {% for job in site.data.experience.docs %}
-        <div class="pic-button">
-            <h3>{{ job.employer }}</h3>
-            <h6>{{ job.job }}</h6>
-            <h4>{{ job.date }}</h4>
-            <picture class="button-img-wrapper">
-                <img src="assets/img/experience/{{ job.image }}" alt="{{ job.alt }}">
-            </picture>
+        <div class="list-wrapper">
+            <div class="gradient-overlay"></div>
+            <img src="assets/img/experience/{{ job.image }}" alt="{{ job.alt }}">
+            <h3 class="img-title">{{ job.employer }}</h3>
+            <h6 class="img-title">{{ job.job }}</h6>
+            <time datetime="{{ job.date }}" class="img-date">
+                <h4>{{ job.date }}</h4>
+            </time>
         </div>
         {% endfor %}
     </article>
     <article>
         <h3>Education</h3>
         {% for course in site.data.education.docs %}
-        <div class="pic-button">
-            <h3>{{ course.school }}</h3>
-            <h6>{{ course.degree }}</h6>
-            <h4>{{ course.date }}</h4>
-            <picture class="button-img-wrapper">
-                <img src="assets/img/education/{{ course.image }}" alt="{{ course.alt }}">
-            </picture>
+        <div class="list-wrapper">
+            <div class="gradient-overlay"></div>
+            <img src="assets/img/education/{{ course.image }}" alt="{{ course.alt }}">
+            <h3 class="img-title">{{ course.school }}</h3>
+            <h6 class="img-title">{{ course.degree }}</h6>
+            <time datetime="{{ job.date }}" class="img-date">
+                <h4>{{ course.date }}</h4>
+            </time>
         </div>
         {% endfor %}
     </article>
