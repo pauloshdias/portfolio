@@ -3,16 +3,18 @@
 
 {%- include head.html -%}
 
-<body style="background-color: #FFFFFA;">
+<body>
 
   {%- include header.html -%}
 
-  <main class="page-content" aria-label="Content">
+  <main class="projects-base" aria-label="Content">
     <article>
       <img src="../assets/img/project-covers/{{ page.image }}" alt="{{ page.alt }}">
-      <h3>{{ page.title }}</h3>
-      <h4>{{ page.subtitle }}</h4>
-      <p>{{ page.description }}</p>
+      <div class="project-info">
+        <h3 class="project-title">{{ page.title }}</h3>
+        <h4 class="project-sub">{{ page.subtitle }}</h4>
+        <p>{{ page.description }}</p>
+      </div>
     </article>
     <section class="wrapper">
       {{ content }}

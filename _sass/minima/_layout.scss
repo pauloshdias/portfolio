@@ -6,7 +6,7 @@
     letter-spacing: -1px;
     margin-bottom: 0;
     text-align: center;
-  
+
     &,
     &:visited {
       color: $text-color;
@@ -25,9 +25,6 @@
     padding: 0;
     min-width: 10vw;
 
-    a {
-      text-decoration: none;
-    }
   }
 
   .nav-wrapper {
@@ -48,7 +45,11 @@
   margin-top: 32px;
 }
 
-.page-title{
+
+.splash-title {
+  margin-top: 104px;
+}
+.page-title {
   margin: $spacing-unit*(1.0666) 0 $spacing-unit*(1.0666) 0;
 }
 /* MAIN BUTTONS STYLES */
@@ -74,3 +75,24 @@
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 28.86%, #000000 97.32%);
 opacity: 0.5;
 }
+
+ /* PROJECTS LAYOUT STYLES */
+
+ .projects-base {
+   background-color: $neutral-color-light;
+   color: $primary-color;
+   flex: 1;
+
+   & .project-info {
+    padding: 0 $spacing-unit 0 $spacing-unit;
+   }
+ }
+ .project-title {
+    margin: $spacing-unit*(1.0666) 0 0;
+ }
+ .project-sub {
+   color: $secondary-color;
+ }
+ .project-img {
+   margin: $spacing-unit/(4) 0;
+ }
