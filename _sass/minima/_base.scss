@@ -27,12 +27,11 @@
    min-height: 100vh;
    flex-direction: column;
    //@extend .bg-pattern;
- }
- .bg-pattern {
-     background-image: url(../../assets/img/bg-pattern.png);
+   background-image: url("../assets/img/bg-pattern.svg");
      background-size: auto, cover;
      background-repeat: repeat;
  }
+
 
 
  
@@ -54,6 +53,7 @@
   */
  main {
    display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */
+   min-height: calc(100vh - #{$footer-height});
  }
  
  
@@ -101,19 +101,19 @@
  /**
   * Headings
   */
-h3, h5, h6 {
+h3, h5 {
    font-weight: $base-font-weight;
  }
  h1, h2, h4 {
-  font-weight: $base-font-weight*(2.25);
+  font-weight: $base-font-weight*(2.2);
 }
 h1
 h2, h3 {
-  @include relative-font-size(1.71428);
+  @include relative-font-size(1.7);
 }
 h1 {
   color: $secondary-color;
-  @include relative-font-size(2.2857);
+  @include relative-font-size(2.2);
   line-height: $base-line-height*(7/8);
 }
 h2 {
@@ -121,15 +121,17 @@ h2 {
 } 
 
 h3 {
-  font-weight: $base-font-weight*(1.75);
-  color: $primary-color;
+  font-weight: $base-font-weight*(1.7);
+  line-height: $base-line-height*(0.7);
 }
 h4 {
-  @include relative-font-size(1.1428571);
+  @include relative-font-size(1.1);
 }
 
 h6 {
   font-size: $small-font-size;
+  font-weight: $base-font-weight*(1.5);
+  line-height: $base-line-height*(0);
 }
  /**
   * Links
@@ -143,8 +145,7 @@ h6 {
    }
  
    &:hover {
-     color: $neutral-color-light;
-     text-decoration: underline;
+     color: $accent-color;
    }
  
    .social-media-list &:hover {

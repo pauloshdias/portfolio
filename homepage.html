@@ -11,9 +11,15 @@ name: home
         <li class="projects-list">
             <div class="list-wrapper">
                 <a href="{{ site.baseurl }}/{{ category.url }}">
-                    <div class="gradient-overlay"></div>
-                    <img src="{{ site.baseurl }}/assets/img/categories/{{ category.image }}" alt="{{ category.alt }}">
-                    <h2 class="li-title">{{ category.title }}</h2>
+                    <div class="image">
+                        <img src="{{ site.baseurl }}/assets/img/categories/{{ category.image }}"
+                            alt="{{ category.alt }}">
+                    </div>
+                    <div class="detail-wrapper">
+                        <div class="title">
+                            <h2>{{ category.title }}</h2>
+                        </div>
+                    </div>
                 </a>
             </div>
         </li>
