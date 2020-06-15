@@ -55,7 +55,9 @@
    display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */
    min-height: calc(100vh - #{$footer-height});
  }
- 
+ article, section {
+   margin: $spacing-unit 0 $spacing-unit*(2) 0;
+ }
  
  
  /**
