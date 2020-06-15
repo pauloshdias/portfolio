@@ -45,10 +45,40 @@
   box-sizing: border-box;
 }
 
-
-.splash-title {
-  margin-top: 104px;
+/* SPLASH SCREEN */
+.splash-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80vw;
 }
+.splash-author {
+  color: $secondary-color;
+}
+.splash-quote {
+  margin-top: 104px;
+  @extend .splash-author;
+  
+}
+.wellcome-wrapper {
+  margin-top: 11vh;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: 1fr 4fr 1fr;
+  text-align: center;
+  column-gap: 0;
+  row-gap: 0;
+  
+}
+.wellcome-message {
+  grid-column: 2;
+  justify-items: center;
+}
+.wellcome-button {
+  grid-row-start: 3;
+  grid-column: 2;
+  align-self: center;
+}
+
 .page-title {
   margin: $spacing-unit*(1.0666) 0 $spacing-unit*(1.0666) 0;
 }
