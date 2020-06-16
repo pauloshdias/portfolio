@@ -35,12 +35,7 @@
     max-width: 400px;
     margin: 0;
   }
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    min-width: 10vw;
-  }
+  
  
 
 .top-navigation {
@@ -143,7 +138,7 @@
   @extend .title;
   position: absolute;
   right: 0;
-  bottom: 5%;
+  bottom: 8%;
   left: 5%;
   width: 90%;
 }
@@ -184,7 +179,7 @@
  }
  .project-sub {
    color: $secondary-color;
-   margin-top: -10px
+   margin-top: -6px;
  }
  .project-img {
    margin: $spacing-unit/(4) 0;
@@ -199,7 +194,7 @@
 
 .about-sub {
   @extend .project-sub;
-  margin-top: -10px;
+  margin-top: -8px;
 }
 
 
@@ -267,3 +262,4 @@
     fill: #7BDFF2;
   }
 }
+/* STANDARDS */
