@@ -19,6 +19,7 @@
       justify-content: space-around;
       max-width: 400px;
       margin: auto;
+      text-transform: uppercase;
   }
   
   .nav-wrapper {
@@ -41,7 +42,6 @@
     min-width: 10vw;
   }
  
-
 
 .top-navigation {
   height: 72px;
@@ -168,7 +168,7 @@
   margin-bottom: $spacing-unit*(2);
 }
 
- /* PROJECTS LAYOUT STYLES */
+/*   PROJECTS BUTTONS STYLES    */
 
  .projects-base {
    background-color: $neutral-color-light;
@@ -190,6 +190,7 @@
    margin: $spacing-unit/(4) 0;
  }
 
+
  /* ABOUT BASE */
 
 .about-title {
@@ -199,4 +200,54 @@
 .about-sub {
   @extend .project-sub;
   margin-top: -10px;
+}
+
+
+
+/* ---------------------------- */
+/*   PROJECTS LAYOUT STYLES    */
+/* ---------------------------- */
+
+.icons-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  @extend .project-list-wrapper;
+}
+.icon-wrapper {
+  text-align: center;
+  margin: 2vw;
+}
+.project-list-wrapper {
+  margin: 2vh 0;
+}
+
+.icon-list-wrapper {
+  display: flex;
+  flex-direction: row;
+  @extend .project-list-wrapper;
+}
+.project-icon-lists {
+  justify-content: center;
+  margin-right: 5vw;
+  width: 40px;
+}
+.project-list-detail {
+  line-height: $base-line-height/(1.5);
+  vertical-align: middle;
+  align-self: center;
+}
+.project-list-detail-tight {
+  line-height: $base-line-height/(2);
+}
+
+.list-row {
+  display: inherit;
+  flex-direction: row;
+  width: 100%;
+}
+.thankyou {
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 10vh;
 }
