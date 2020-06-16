@@ -208,6 +208,7 @@
 /*   PROJECTS LAYOUT STYLES    */
 /* ---------------------------- */
 
+/*  FBAUL  */
 .icons-container {
   display: flex;
   justify-content: space-around;
@@ -250,4 +251,19 @@
   text-align: center;
   text-transform: uppercase;
   margin-top: 10vh;
+}
+
+/*  PHOTO PORTFOLIO CODE  */
+
+.centered-link {
+  width: 100%;
+  text-align: center;
+  color: $primary-color-1;
+  fill: #314158;
+  a:hover {
+    fill: #7BDFF2;
+  }
+  a:active {
+    fill: #7BDFF2;
+  }
 }
