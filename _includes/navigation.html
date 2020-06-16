@@ -1,7 +1,9 @@
 <div class="nav-wrapper">
-   <ul class="navigation">
-      {% for item in site.data.navigation.docs %}
-      <li><a href="{{site.baseurl}}/{{ item.url }}">{{ item.title }}</a></li>
-      {% endfor %}
-   </ul>
+   <div class="navigation">
+      <ul class="nav-items">
+         {% for item in site.data.navigation.docs %}
+         <li><a href="{{site.baseurl}}/{{ item.url }}">{{ item.title }}</a></li>
+         {% endfor %}
+      </ul>
+   </div>
 </div>
