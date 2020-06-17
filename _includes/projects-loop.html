@@ -1,10 +1,9 @@
-<li>
-    <div>
-        <a class="list-wrapper" href="{{ site.baseurl }}{{ project.url }}">
-            <div class="image">
-                <img src="{{ site.baseurl }}/assets/img/project-covers/{{ project.image }}" alt="{{ page.alt }}">
-            </div>
+<li class="list-wrapper">
+    <a href="{{ site.baseurl }}{{ project.url }}">
+        <img src="{{ site.baseurl }}/assets/img/project-covers/{{ project.image }}" alt="{{ page.alt }}">
+        <div class="project-name">
             <h2 class="title">{{ project.title }}</h2>
-        </a>
+        </div>
+    </a>
     </div>
 </li>
