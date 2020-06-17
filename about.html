@@ -21,8 +21,8 @@ layout: default
         <h3 class="about-title">Work Experience</h3>
         <ul>
             {% for job in site.data.experience.docs %}
-            <li class="list-wrapper">
-                <div class="image">
+            <li class="about-list-wrapper">
+                <div class="image-about">
                     <img src="assets/img/experience/{{ job.image }}" alt="{{ job.alt }}">
                 </div>
                 <div class="details-wrapper">
@@ -44,8 +44,8 @@ layout: default
         <h3 class="about-title">Education</h3>
         <ul>
             {% for course in site.data.education.docs %}
-            <li class="list-wrapper">
-                <div class="image">
+            <li class="about-list-wrapper">
+                <div class="image-about">
                     <img src="assets/img/education/{{ course.image }}" alt="{{ course.alt }}">
                 </div>
                 <div class="details-wrapper">
