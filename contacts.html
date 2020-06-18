@@ -1,28 +1,49 @@
 ---
-layout: default
+layout: columns
 Title: Contacts
 ---
-<section class="form-wrapper">
-  <h1>Lets talk</h1>
-  <div class="form">
-    <div>
-      <form action="https://getform.io/f/29e64ebe-4602-43b8-988f-6e7910f041e3" method="POST">
-        <div class="contacts-id">
-          <div class="form-label">
-            <label for="name">Name *</label>
-            <input type="text" name="name" required>
+<div class="responsive-content-wrapper">
+  <section class="contact-message">
+    <arcicle>
+      <h1>Always looking forward for new and engaging projects</h1>
+    </arcicle>
+    <arcicle>
+      <p>If you beleive to have any interesting project that I can help you with or just willingness to learn some more
+        about me and/or my work, I’m a clock away.
+      </p>
+    </arcicle>
+  </section>
+  <section class="form-wrapper">
+    <h1>Lets talk</h1>
+    <div class="form">
+      <div>
+        <form action="https://getform.io/f/29e64ebe-4602-43b8-988f-6e7910f041e3" method="POST">
+          <div class="contacts-id">
+            <div class="form-label">
+              <label for="name">Name *</label>
+              <input type="text" name="name" required>
+            </div>
+            <div class="form-label">
+              <label for="email">Email *</label>
+              <input type="email" name="email" required>
+            </div>
           </div>
           <div class="form-label">
-            <label for="email">Email *</label>
-            <input type="email" name="email" required>
+            <label for="message">Message *</label>
+            <textarea name="message" cols="30" rows="10" required></textarea>
           </div>
-        </div>
-        <div class="form-label">
-          <label for="message">Message *</label>
-          <textarea name="message" cols="30" rows="10" required></textarea>
-        </div>
-        <button type="submit">Send</button>
+          <div class="buttons-wrapper">
+            <button type="submit">
+              <h4>Send</h4>
+            </button>
+            <button class="button-link"> <a
+                href="https://drive.google.com/file/d/1cU2HGAY48-bYGDBCPIjiwiYfOjCjTVQi/view?usp=sharing"
+                target="_blank">
+                <h5>Resumé Download</h5>
+              </a> </button>
+          </div>
+      </div>
       </form>
     </div>
-  </div>
-</section>
+  </section>
+</div>

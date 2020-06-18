@@ -37,7 +37,9 @@ $on-laptop:        800px !default;
 
 // Media Queries Break Points
 
-$break-point-1: 1200px !default;
+$break-point-1: 700px !default;
+$break-point-2: 1200px !default;
+
 
 // Use media queries like this:
 // @include media-query($on-palm) {
