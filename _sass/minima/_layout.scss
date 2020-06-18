@@ -370,12 +370,34 @@ input[type=text], input[type=email], textarea {
 
 
 @media only screen and (min-width: $break-point-1) {
-/* FOOTER */
+
+  /* NAVIGATION */
+
+  .top-navigation {
+    height: 72px;
+    width: 100%; /* CHANGED */
+    background-color: rgba(49, 65, 88, 0); /* CHANGED */
+  }
+
+  .nav-wrapper {
+    display: flex;
+    flex-direction: row; 
+    .navigation {
+      justify-content: space-around; /* CHANGED */
+      max-width: 150px;
+      align-self: center;
+      margin-right: 7vw; /* CHANGED */
+  }
+  }
+
+
+  /* FOOTER */
 
 .footer-nav {
   background-color: rgba(49, 65, 88, 0);
   .navigation {
     margin-left: 0;
+    margin-top: -1.5vh;
   }
 }
 
