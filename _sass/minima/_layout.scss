@@ -21,6 +21,7 @@
       margin: auto;
       text-transform: uppercase;
   }
+ 
   
   .nav-wrapper {
     display: flex;
@@ -36,7 +37,22 @@
     margin: 0;
   }
   
- 
+ .social-wrapper {
+    display: block;
+    flex-direction: column;
+    max-width: 400px;
+    justify-content: start;
+
+    .navigation {
+      display: flex;
+      text-decoration: none;
+      justify-content: space-between;
+      max-width: 200px;
+      margin-left: 0;
+      margin-top: 2vh;
+      text-transform: uppercase;
+  }
+ }
 
 .top-navigation {
   height: 72px;
@@ -109,7 +125,7 @@
   overflow: hidden;
   margin: 8px auto 8px auto;
 }
-.list-wrapper { /* Overflow still not working */
+.list-wrapper { /* Overflow still not working */ 
   @extend .img-box;
   &:before {
     content: '';
