@@ -66,6 +66,7 @@
   box-sizing: border-box;
   .navigation {
     margin: auto;
+    margin-top: 4px;
   }
 }
 
@@ -73,6 +74,11 @@
 .splash {
   display: flex;
   flex-direction: column;
+}
+.splash-fix {
+  adding: $spacing-unit 0;
+  flex: 1;
+  min-height: calc(100vh - #{$footer-height});
 }
 .splash-heading {
   margin: auto;
@@ -117,6 +123,7 @@
 }
 
 /* MAIN BROWSING BUTTONS STYLES */
+
 .img-box {
   position: relative;
   height: 19.67vh;
@@ -258,7 +265,7 @@ opacity: 0.8;
 
 .form-wrapper {
   display: block;
-  margin: auto;
+  margin: 5vh auto auto auto;
 }
 .form-label {
   display: flex;
@@ -368,7 +375,7 @@ input[type=text], input[type=email], textarea {
   .grid-wrapper {
     display: grid;
     width: 100%;
-    height: 90vh;
+    height: calc(100vh - #{$footer-height} - #{$nav-height});
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
     column-gap: 0;
