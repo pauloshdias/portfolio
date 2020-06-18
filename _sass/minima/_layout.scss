@@ -76,9 +76,9 @@
   flex-direction: column;
 }
 .splash-fix {
-  adding: $spacing-unit 0;
+  padding: $spacing-unit 0;
   flex: 1;
-  min-height: calc(100vh - #{$footer-height});
+  min-height: calc(100vh - #{$footer-height} - #{$nav-height});
 }
 .splash-heading {
   margin: auto;
@@ -370,6 +370,14 @@ input[type=text], input[type=email], textarea {
 
 
 @media only screen and (min-width: $break-point-1) {
+/* FOOTER */
+
+.footer-nav {
+  background-color: rgba(49, 65, 88, 0);
+  .navigation {
+    margin-left: 0;
+  }
+}
 
   /* CONTACTS */
 
@@ -394,7 +402,6 @@ button {
 .contact-message {
   display: block;
   max-width: 50vw;
-  vertical-align: middle;
   margin: auto 0 auto 0;
   width: 40%;
 }
