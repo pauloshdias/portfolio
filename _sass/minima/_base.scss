@@ -63,6 +63,12 @@
  }
  article, section {
    margin: $relative-spacing-unit 0 $relative-spacing-unit*(2) 0;
+   .grid-item-2 {
+    margin: 0;
+  }
+  .grid-item-1 {
+    margin-bottom: 0;
+  }
  }
  
  
