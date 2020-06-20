@@ -346,6 +346,7 @@ input[type=text], input[type=email], textarea {
 .margin-top-fix {
   margin-top: $relative-spacing-unit*(0);
 }
+
 /*  PHOTO PORTFOLIO CODE  */
 
 .centered-link {
@@ -378,8 +379,8 @@ input[type=text], input[type=email], textarea {
 
   .top-navigation {
     height: 72px;
-    width: 100%; /* CHANGED */
-    background-color: rgba(49, 65, 88, 0); /* CHANGED */
+    width: 100%; 
+    background-color: rgba(49, 65, 88, 0);
   }
 
   .nav-wrapper {
@@ -420,7 +421,7 @@ input[type=text], input[type=email], textarea {
   display: flex;
   align-items: center;
 }
-button {
+.button {
   display: block;
   height: 4vh;
 }
