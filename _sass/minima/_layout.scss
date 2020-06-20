@@ -108,7 +108,7 @@
   text-align: center;
   align-self: end;
 }
-.wellcome-button {
+.link-to-homepage {
   grid-row-start: 2;
   grid-column: 2;
 }
@@ -542,7 +542,7 @@ input[type=text], input[type=email], textarea {
     margin: auto;
   }
 
-  .wellcome-button {
+  .link-to-homepage {
     grid-row-start: 2;
     grid-column: 1 / 2;
   }
